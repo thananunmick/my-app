@@ -47,6 +47,7 @@ class Board extends React.Component {
   
       return (
         <div>
+          <p>UPDATED!</p>
           <div className="status">{status}</div>
           <div className="board-row">
             {this.renderSquare(0)}
